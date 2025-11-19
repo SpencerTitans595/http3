@@ -58,6 +58,6 @@ As an example, this project uses the [**DomCop Top 1 Million Domains**](https://
 Please note that this dataset might not always be up to date, as it changes frequently over time.  
 It is therefore recommended to **generate your own list** using the provided scripts instead of relying on the pre-downloaded one.
 
-All Results files (e.g. `resultX.csv`)  were retrieved in late October and early November 2025.
+All Results files were retrieved in late October and early November 2025 and now stored in [Old Results](./results/old), while newly generated results with timestamps placed in [New Results](./results/).
 
 You can use the [`extract_domains.sh`](extract_domains.sh) script to clean and format the dataset by removing unnecessary fields, keeping only valid domain names in a simple list.
